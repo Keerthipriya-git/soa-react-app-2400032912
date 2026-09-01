@@ -17,7 +17,7 @@ function NavBar() {
       <main className="page-content">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/registation" element={<UserRegistration />} />
+          <Route path="/registration" element={<UserRegistration />} />
           <Route path="/login" element={<UserLogin />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
@@ -26,4 +26,4 @@ function NavBar() {
   )
 }
 
-export default NavB
+export default NavBar
